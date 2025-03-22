@@ -1,24 +1,40 @@
+:root {
+    --primary-color: darkblue;
+    --text-color: white;
+    --border-color: black;
+    --background-light: #eee;
+    --text-dark: #333;
+    --shadow-color: gray;
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --padding-large: 1rem;
+    --margin-small: 1rem;
+    --margin-medium: 15px;
+    --width-small: 150px;
+    --width-medium: 200px;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--primary-color);
+    padding: var(--padding-small);
 }
 
 nav a {
-    color: white;
+    color: var(--text-color);
     display: block;
-    padding: 20px;
+    padding: var(--padding-medium);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 img {
-    width: 150px;
+    width: var(--width-small);
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--shadow-color);
 }
 
 p {
@@ -31,27 +47,26 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    margin: var(--margin-small);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: var(--padding-large);
+    background-color: var(--background-light);
+    color: var(--text-dark);
     text-align: center;
 }
 
 aside img {
-    width: 200px;
+    width: var(--width-medium);
     height: auto;
 }
 
 main img {
-    width: 150px;
+    width: var(--width-small);
     height: auto;
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
+    margin-top: var(--margin-medium);
+    border-top: 1px solid var(--border-color);
     text-align: center;
 }

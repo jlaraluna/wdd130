@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #0A3D91;
+    --secondary-color: #1E73BE;
+    --accent1-color: #F4A900;
+    --accent2-color: #FFFFFF;
+}
+
+/* Begin by styling the headings and paragraph elements. */
+
+h1 {
+    color: var(--primary-color);
+    font-family: "Poppins";
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-family: "Poppins";
+}
+
+p {
+    color: var(--accent1-color);
+    font-family: "Roboto";
+}
+
+/* Remove underscores. */
+.menu {
+    text-decoration: none;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+#tiktok {
+    width: 2.5rem;
+}
+
+
+
+div h1 article {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+    background-color: var(--accent1-color);
+    opacity: 50%;
+}
+
+.hero article img {
+    float: right;
+}

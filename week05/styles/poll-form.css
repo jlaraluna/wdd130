@@ -1,0 +1,113 @@
+/* Poll Form Styles */
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.0em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    font-family: Playfair Display, sans-serif;
+    margin: 1 auto;
+}
+
+h1 {
+    font-family: Playfair Display, sans-serif;
+    margin: 2rem;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+legend {
+    font-weight: 600;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-size: 1em;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.1rem;
+    font-size: 0.9rem;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #3f3f3f;
+    cursor: pointer;
+
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+footer {
+    padding-top: 3rem;
+}
+
+footer p {
+    font-size: small;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    padding: 0.5rem;
+    bottom: 0;
+    width: 100%;
+}

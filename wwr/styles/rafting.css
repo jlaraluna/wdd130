@@ -1,11 +1,17 @@
 /* General Styles */
 :root {
-    --primary-color: #1F3C4D;      /* Azul marino grisáceo: base elegante y profunda */
-    --secondary-color: #E7E5E3;    /* Gris claro cálido: fondo neutro tipo editorial */
-    --accent1-color: #4F6D7A;      /* Azul pizarra: evoca agua y aventura sin perder elegancia */
-    --accent2-color: #7DA3A1;      /* Verde-agua sofisticado: para detalles activos o hover */
-    --text-color: #1A1A1A;         /* Texto negro suave: legible y con contraste */
-    --highlight-color: #B5C5C3;    /* Azul humo claro: toques decorativos o separadores */
+    --primary-color: #1F3C4D;
+    /* Azul marino grisáceo: base elegante y profunda */
+    --secondary-color: #E7E5E3;
+    /* Gris claro cálido: fondo neutro tipo editorial */
+    --accent1-color: #4F6D7A;
+    /* Azul pizarra: evoca agua y aventura sin perder elegancia */
+    --accent2-color: #7DA3A1;
+    /* Verde-agua sofisticado: para detalles activos o hover */
+    --text-color: #1A1A1A;
+    /* Texto negro suave: legible y con contraste */
+    --highlight-color: #B5C5C3;
+    /* Azul humo claro: toques decorativos o separadores */
 }
 
 body {
@@ -17,7 +23,9 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
     color: var(--primary-color);
@@ -256,6 +264,3 @@ button:hover {
     display: grid;
     align-items: center;
 }
-
-
-

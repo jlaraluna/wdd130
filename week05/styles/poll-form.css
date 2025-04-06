@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+/* Ensure the parent container takes up the full height */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-size: 1.0em;
     color: #333;
@@ -49,7 +56,11 @@ legend {
     font-size: 1.3em;
 }
 
-label, input, button, select, textarea {
+label,
+input,
+button,
+select,
+textarea {
     font-size: 1em;
 }
 
@@ -58,7 +69,9 @@ label {
     padding-right: 1rem;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     padding: 0.1rem;
     font-size: 0.9rem;
 }
@@ -110,4 +123,16 @@ footer p {
     padding: 0.5rem;
     bottom: 0;
     width: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main content should grow to fill available space */
+.main-content {
+    flex: 1;
 }

@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #1D464E;
+    --secondary-color: #446E7A;
+    --accent1-color: #6E919F;
+    --accent2-color: #16596C;
+}
+
+body {
+    font-family: Playfair Display, sans-serif;
+    background-color: var(--secondary-color);
+}
+
+h1, h2 {
+    font-family: Barlow;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 40px;
+}
